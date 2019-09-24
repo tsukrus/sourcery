@@ -53,7 +53,6 @@ int main() {
                 if (successive[j-1] == true)
                 {
                     cout << "It is Magical!\n";
-                    system("pause");
                     return 0;
                 }
             }
@@ -61,5 +60,5 @@ int main() {
     }
 
     cout << "It is not Magical\n";
-    system("pause");
+    return 0;
 }
