@@ -15,8 +15,6 @@ The most widely known is 142857:
 
 ## Solution
 1. The program is given a number N
-2. Two deques are created:
-   - All possible permutations that agree to defined rules.
-   - All successive multiples that are lower than 10 ^ (length of N)
-3. Finds successive (>1) multiples that are equal to permutations
+2. All possible permutations that agree to defined rules.
+3. Each of them is checked if they are multiples of N
 4. Outputs if a number is Magical or Not
